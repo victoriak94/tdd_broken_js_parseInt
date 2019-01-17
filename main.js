@@ -1,5 +1,5 @@
 function parseNumbers(intStrs) {
-    return intStrs.map(parseInt);
+    return intStrs.map(Number);
 }
 
 module.exports = parseNumbers;
